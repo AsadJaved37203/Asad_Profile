@@ -1,0 +1,353 @@
+body{
+    font-family: 'Macondo', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+.containerfluiddesign{
+    background-color: #ffffff;
+}
+.containerdesign{
+    background-color: #ACF0F2;
+}
+.btnup{
+  position: fixed;
+  right: 10px;
+  bottom:10px;
+}
+
+/* navbar CSS start here*/
+
+.profileimgset{
+    width: 50px;
+    height: auto;
+}
+.navbardesign{
+    background-color: #ffffff;
+}
+.navbardesignsecond{
+    background-color: #ACF0F2;
+    border-radius: 250px 0;
+}
+ul li a{
+    font-size: 18px;
+}
+
+/* navbar CSS end here*/
+
+
+
+/* Profile CSS start here*/
+
+.h1styling{
+  font-size: 60px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 5px;
+  color:white;
+}
+
+.colcolorone{
+    background-color: aqua;
+    border-radius: 250px 0;
+}
+.colcolortwo{
+    background-color: #96b5d0;
+    border-radius:  0 250px;
+}
+.span{
+    font-size: 80px;
+}
+.paragraphdesign{
+    font-size: 20px;
+}
+i{
+    color:red;
+}
+
+/* Profile CSS end here*/
+  
+
+
+
+
+/* services css start here*/
+
+/* services css start here*/
+
+
+
+/* education css start here*/
+
+.bgcolorcontainner{
+    background-color: aqua;
+    border-radius:  250px 0;
+}
+
+/* education css end here*/
+
+
+
+/* project css start here*/
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 2000px) {
+  .carddesign{
+      max-width: 740px;
+      max-height: 320px;
+  }
+  .cardbodydesign{
+    position: relative;
+    top:80px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .slideimg{
+        width: 300px;
+        height: 200px;
+    }
+  }
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    .slideimg{
+        width: 300px;
+        height: 200px;
+    }
+  }
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+    .slideimg{
+        width: 600px;
+        height: 400px;
+    }
+  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .slideimg{
+        width: 600px;
+        height: 400px;
+    }
+  }
+
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .active.fade-left {
+    animation: fade-left 0.6s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 0.6s ease-in;
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+/* project css end here*/
+
+
+
+
+/* details css  strat here*/
+
+.carddesign{
+    background-color: #96b5d0;
+    border-radius:  0 250px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 2000px) {
+    .carddesign{
+        max-width: 740px;
+        max-height: 320px;
+    }
+    .cardbodydesign{
+      position: relative;
+      top:80px;
+      background-color: red;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .cardbodydesign{
+      position: relative;
+      left: -40px;
+      background-color: red;
+      border-radius: 5px;
+      color:white;
+    }
+  }
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    .cardbodydesign{
+        position: relative;
+        top: -100px;
+        left: 5px;
+        background-color: red;
+        border-radius: 5px;
+        color:white;
+    }
+  }
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+    .cardbodydesign{
+        position: relative;
+        background-color: red;
+        border-radius: 5px;
+        color:white;
+    }
+  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .cardbodydesign{
+      position: relative;
+      top:80px;
+      background-color: red;
+      border-radius: 5px;
+      color:white;;
+    }
+  }
+@media only screen and (min-device-width: 912px) and (max-device-width: 1368px) {
+  .carddesign{
+    max-width: 740px;
+    max-height: 420px;
+    }
+    .cardbodydesign{
+      position: relative;
+      top:80px;
+      background-color: red;
+      border-radius: 5px;
+      color:white;;
+    }
+  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .cardbodydesign{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+  }
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  .cardbodydesign{
+    position: relative;
+    top:-150px;
+    background-color: red;
+    border-radius: 5px;
+    color:white;;
+  }
+  }
+
+/* details css  end here*/
+
+
+
+
+/* contact css start here*/
+.carddesigncontact{
+    background-color: #96b5d0;
+    border-radius:  250px 0;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 2000px) {
+  .carddesigncontact{
+    max-width: 740px;
+    max-height: 320px;
+}
+.cardbodydesigncontact{
+  position: relative;
+  top:90px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+  }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .cardbodydesigncontact{
+      position: relative;
+      left:-35px;
+      background-color: red;
+      border-radius: 5px;
+      color:white;
+      width: 100%;
+    }
+  }
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    .cardbodydesigncontact{
+        position: relative;
+        top: -100px;
+        left: 5px;
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        width: 100%;
+    }
+  }
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+    .cardbodydesigncontact{
+        position: relative;
+        top:70px;
+        background-color: red;
+        border-radius: 5px;
+        color:white;
+        width: 400px;
+    }
+  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .cardbodydesigncontact{
+      position: relative;
+      top: 100px;
+      background-color: red;
+      border-radius: 5px;
+      color: white;
+      width: 100%;
+    }
+  }
+@media only screen and (min-device-width: 912px) and (max-device-width: 1368px) {
+    .carddesigncontact{
+      max-width: 740px;
+      max-height: 420px;
+      }
+      .cardbodydesigncontact{
+        position: relative;
+        top:100px;
+        background-color: red;
+        border-radius: 5px;
+        color:white;;
+      }
+    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .cardbodydesigncontact{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+  }
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  .cardbodydesigncontact{
+    position: relative;
+    top: -150px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+  }
+  }
+
+/* contact css end here*/
